@@ -1,7 +1,26 @@
 aid: tempow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempow.png
 name: tempow
-description: tempow is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tempow was a Paris-based startup (founded 2016) building software to improve
+  Bluetooth audio connectivity, including an operating system for true-wireless earbuds
+  and multi-device audio streaming licensed to chipset makers and Android device
+  manufacturers such as Motorola and TCL. Backed by Balderton Capital and C4 Ventures,
+  Tempow was acquired by Google in 2021. The company operated as a B2B embedded-software
+  and licensing business and never published a public developer API. Its website
+  (www.tempow.com) no longer resolves. This profile was surfaced as a portfolio company
+  of balderton-capital and added to the API Evangelist network as a lead; enrichment
+  confirms there is no live API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tempow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,20 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-acquired-year: 2021
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Bluetooth
+- Audio
+- Wireless
+- Connectivity
+- Embedded Software
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: http://www.tempow.com/
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/tempow
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tempow
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
